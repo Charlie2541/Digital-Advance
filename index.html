@@ -48,6 +48,12 @@
 	var collegeA = L.marker([51.130350 , -2.7334379]).addTo(mymap);
 	collegeA.bindPopup("<b>A block</b><br>Strode College").openPopup();
 	
+	var collegeM= L.marker([51.129645 , -2.7325822]).addTo(mymap);
+	collegeD.bindPopup("<b>M block</b><br>Strode College").openPopup();	
+
+	var collegeJ= L.marker([51.129502 , -2.7320538]).addTo(mymap);
+	collegeA.bindPopup("<b>Jblock</b><br>Strode College").openPopup();
+	
 	function onMapClick(e) {
 		popup
 			.setLatLng(e.latlng)
