@@ -49,10 +49,16 @@
 	collegeA.bindPopup("<b>A block</b><br>Strode College").openPopup();
 	
 	var collegeM= L.marker([51.129645 , -2.7325822]).addTo(mymap);
-	collegeD.bindPopup("<b>M block</b><br>Strode College").openPopup();	
+	collegeM.bindPopup("<b>M block</b><br>Strode College").openPopup();	
 
 	var collegeJ= L.marker([51.129502 , -2.7320538]).addTo(mymap);
-	collegeA.bindPopup("<b>Jblock</b><br>Strode College").openPopup();
+	collegeJ.bindPopup("<b>Jblock</b><br>Strode College").openPopup();
+	
+	var collegeE = L.marker([51.129216 , -2.7318487]).addTo(mymap);
+	collegeE.bindPopup("<b>E block</b><br>Strode College").openPopup();
+	
+	var collegeT= L.marker([51.129645 , -2.7325822]).addTo(mymap);
+	collegeT.bindPopup("<b>Strode Theatre</b><br>Strode College").openPopup();	
 	
 	function onMapClick(e) {
 		popup
