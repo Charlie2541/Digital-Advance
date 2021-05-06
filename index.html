@@ -61,6 +61,8 @@
 	var collegeT= L.marker([51.129645 , -2.7325822]).addTo(mymap);
 	collegeT.bindPopup("<b>Strode Theatre</b><br>Strode College").openPopup();	
 	
+	mymap.addcontrol(new. L.Control.Fullscreen());
+	
 	function onMapClick(e) {
 		popup
 			.setLatLng(e.latlng)
